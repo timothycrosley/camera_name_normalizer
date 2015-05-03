@@ -51,7 +51,7 @@ it is automatically applied). Additionally, while two data structures are used i
 one small data structure would be required using this approach (the mapping of the simplified form -> the best defined
 label available so far).
 
-The extra data data set only exists because of the written requirement that there be a mapping of the original
+The extra data set only exists because of the written requirement that there be a mapping of the original
 form to its expanded form for all values. In practical applications the normalization method would allow you to
 always see what the expanded form of any string would be on an on-demand basis. In fact, in the given code you can
 see what any value in the list was mapped to by running normalized_data[original_value].
