@@ -13,6 +13,12 @@ After normalization:
     Canon 5D Mark II
     Canon 5D Mk III
 
+Assumptions:
+    - Python > 2.6 but < 3.0 is being used
+    - The longer versions of Camera names are the more complete / correct ones
+    - The list could potentially be much longer, so memory use should be conservative
+        - Another pass could always be ran AFTER the list is reduced in size.
+
 
 Using the normalizer
 ===================
